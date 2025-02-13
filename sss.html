@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAMMARDHI........❤️❤️❤️❤️❤</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccb;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            text-align: center;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 1.8rem;
+            max-width: 80%;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            padding: 20px;
+            text-align: center;
+            max-width: 300px;
+            animation: float 5s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        .heart {
+            color: #ff004f;
+            font-size: 3em;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .floating-hearts {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        .floating-hearts div {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            background: #ff004f;
+            opacity: 0.7;
+            clip-path: path('M23.5 2.1C21.5 0.1 18.2-0.4 15.5 2.3L15 2.8L14.5 2.3C11.8-0.4 8.5 0.1 6.5 2.1C4.1 4.5 3.6 8.1 5.4 11.2C7.1 14.2 12.4 19.2 14.3 20.8C14.5 21 14.8 21 15 21C15.2 21 15.5 21 15.7 20.8C17.6 19.2 22.9 14.2 24.6 11.2C26.4 8.1 25.9 4.5 23.5 2.1Z');
+            animation: floatUp 6s infinite;
+        }
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>❤️ LOVE IS NOT A BOND BETWEEN A BOY AND A GIRL, BUT A BEAUTIFUL FRIENDSHIP TOO! ❤️<br>I LOVE YOU RAA BAVA..❤️❤️❤️</h1>
+    <div class="card">
+        <div class="heart">&#10084;</div>
+        <div class="message">
+           Karthik ❤️ Chari
+        </div>
+    </div>
+    <div class="floating-hearts">
+        <div style="left: 10%; animation-delay: 0s;"></div>
+        <div style="left: 20%; animation-delay: 2s;"></div>
+        <div style="left: 30%; animation-delay: 4s;"></div>
+        <div style="left: 50%; animation-delay: 6s;"></div>
+        <div style="left: 70%; animation-delay: 8s;"></div>
+        <div style="left: 80%; animation-delay: 10s;"></div>
+    </div>
+</body>
+</html>
